@@ -1,0 +1,24 @@
+Jest:
+
+  - test runner by facebook
+  - can be used to test any JavaScript not just React
+  - write tests in the "__tests__" folder or with a `<NAME>.test.js` extension
+  - supports snapshot testing, coverage and mocking
+
+Enzyme:
+
+  - test utility library for React by airbnb
+  - Used to only test React apps
+  - can use it to simulate user behavior like clicking buttons, typing, etc
+  - can test the effects of user behavior on internal and redux state
+
+---------------------------
+
+* `shallow()` renders a component's child components as just the jsx tag and not the entire contents within it, this way you can just test one component at a time
+
+* `expect(app).toMatchSnapshot()` will compare the current snapshot with the last one on record and fail if they are different, if this is expected then press "u" (for update) in the terminal to replace the old snapshot with the new
+
+* Snapshots:
+
+  - are records of a component's render function that are kept track of by Jest, each time something changes in a component that causes it to render differently the snapshot comparison fails
+  - these snapshots are stored in a "__snapshots__" directory in the same folder the test resides where a snapshot method was called
