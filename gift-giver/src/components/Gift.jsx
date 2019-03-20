@@ -34,9 +34,11 @@ export default class Gift extends React.Component {
             className="input-present"
           />
         </Form.Group>
-        <Button onClick={() => removeGift(gift.id)} className="btn-remove">
-          Remove Gift
-        </Button>
+        <Form.Group>
+          <Button onClick={() => removeGift(gift.id)} className="btn-remove">
+            Remove Gift
+          </Button>
+        </Form.Group>
       </Form>
     );
   }
