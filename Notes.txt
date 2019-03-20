@@ -12,6 +12,9 @@ Enzyme:
   - can use it to simulate user behavior like clicking buttons, typing, etc
   - can test the effects of user behavior on internal and redux state
 
+* Test Coverage is a report run via `yarn run test --coverage`, it shows many metrics like how many lines of code is covered by tests, how many functions, uncovered lines, etc
+  It also shows the line numbers that aren't covered
+
 ---------------------------
 
 * `shallow()` renders a component's child components as just the jsx tag and not the entire contents within it, this way you can just test one component at a time
@@ -22,3 +25,30 @@ Enzyme:
 
   - are records of a component's render function that are kept track of by Jest, each time something changes in a component that causes it to render differently the snapshot comparison fails
   - these snapshots are stored in a "__snapshots__" directory in the same folder the test resides where a snapshot method was called
+
+* The `.find()` method provided by enzyme allows you to select elements by their JSX tag or classname
+
+* "Test Polution" is the term that refers to relying on the actions done in another it() block to have the result of the current it() block, ideally tests should be seperate units
+
+* beforeEach() and afterEach() methods run before and after each unit test (denoted by it()) within a describe()
+
+---------------------------
+
+Pass props in like so:
+
+  const giftId = 1;
+  const mockRemove = jest.fn();
+  const props = {
+    gift: {
+      id: giftId,
+      removeGift: mockRemove
+    }
+  };
+
+  const app = shallow(<App {...props} />);
+
+`mockRemove` is a jest function which mocks the callback prop `removeGift`
+
+Assert a callback has been called with a certain param:
+
+  expect(mockRemove).toHaveBeenCalledWith(giftId);
