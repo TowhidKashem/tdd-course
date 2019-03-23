@@ -3,9 +3,7 @@ import Enzyme, { shallow } from 'enzyme';
 import EnzymeAdapter from 'enzyme-adapter-react-16';
 import App from './App';
 
-Enzyme.configure({
-  adapter: new EnzymeAdapter()
-});
+Enzyme.configure({ adapter: new EnzymeAdapter() });
 
 describe('App Component', () => {
   const app = shallow(<App />);
@@ -18,7 +16,7 @@ describe('App Component', () => {
     expect(app.state().gifts).toEqual([]);
   });
 
-  describe('When clicking the `Add Gift` button', () => {
+  describe('when clicking the `Add Gift` button', () => {
     const giftId = 1;
 
     beforeEach(() => {

@@ -3,9 +3,7 @@ import Enzyme, { shallow } from 'enzyme';
 import EnzymeAdapter from 'enzyme-adapter-react-16';
 import Gift from './Gift';
 
-Enzyme.configure({
-  adapter: new EnzymeAdapter()
-});
+Enzyme.configure({ adapter: new EnzymeAdapter() });
 
 describe('Gift Component', () => {
   const mockRemove = jest.fn();
