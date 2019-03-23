@@ -1,18 +1,30 @@
 import * as actionTypes from '../actions/actionTypes';
 import balanceReducer from './balance';
+// import balanceReducer2 from './balance';
 
 describe('balance reducer', () => {
-  it('sets a balance', () => {
-    const prevState = undefined;
-    const balance = 10;
+  const prevState = undefined;
+  const balance = 10;
+
+  describe('when initializing', () => {
     const action = {
       type: actionTypes.SET_BALANCE,
       balance
     };
 
-    expect(balanceReducer(prevState, action)).toEqual({
-      balance
+    it('sets a balance', () => {
+      expect(balanceReducer(prevState, action)).toEqual({
+        balance
+      });
     });
+
+    // describe('then re-initializing (if page reloads)', () => {
+    //   it('reads the balance from cookies', () => {
+    //     expect(balanceReducer2(prevState, {})).toEqual({
+    //       balance
+    //     });
+    //   });
+    // });
   });
 
   it('deposits into the balance', () => {

@@ -4,6 +4,8 @@ exports[`<Wallet /> renders properly 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <Wallet
     balance={20}
+    deposit={[MockFunction]}
+    withdraw={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -44,6 +46,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "balance": 20,
+              "deposit": [MockFunction],
+              "withdraw": [MockFunction],
             },
           },
           "memoizedState": Object {
@@ -51,6 +55,8 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "balance": 20,
+              "deposit": [MockFunction],
+              "withdraw": [MockFunction],
             },
           },
           "mode": 0,
@@ -99,6 +105,21 @@ ReactWrapper {
                       Wallet Balance: 
                       20
                     </h3>
+                    <br />
+                    <input
+                      class="input-wallet"
+                      type="text"
+                    />
+                    <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>
+                    <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>
                   </div>
                 </div>,
                 "context": Object {},
@@ -144,6 +165,8 @@ ReactWrapper {
                       props={
                         Object {
                           "balance": 20,
+                          "deposit": [MockFunction],
+                          "withdraw": [MockFunction],
                         }
                       }
                     />,
@@ -165,6 +188,8 @@ ReactWrapper {
                       props={
                         Object {
                           "balance": 20,
+                          "deposit": [MockFunction],
+                          "withdraw": [MockFunction],
                         }
                       }
                     />,
@@ -191,6 +216,8 @@ ReactWrapper {
                 props={
                   Object {
                     "balance": 20,
+                    "deposit": [MockFunction],
+                    "withdraw": [MockFunction],
                   }
                 }
               />,
@@ -211,6 +238,21 @@ ReactWrapper {
                     Wallet Balance: 
                     20
                   </h3>
+                  <br />
+                  <input
+                    class="input-wallet"
+                    type="text"
+                  />
+                  <button
+                    class="btn-deposit"
+                  >
+                    Deposit
+                  </button>
+                  <button
+                    class="btn-withdraw"
+                  >
+                    Withdraw
+                  </button>
                 </div>
               </div>,
               "context": Object {},
@@ -247,6 +289,8 @@ ReactWrapper {
                   props={
                     Object {
                       "balance": 20,
+                      "deposit": [MockFunction],
+                      "withdraw": [MockFunction],
                     }
                   }
                 />,
@@ -266,6 +310,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "balance": 20,
+              "deposit": [MockFunction],
+              "withdraw": [MockFunction],
             },
           },
           "ref": null,
@@ -314,6 +360,21 @@ ReactWrapper {
                       Wallet Balance: 
                       20
                     </h3>
+                    <br />
+                    <input
+                      class="input-wallet"
+                      type="text"
+                    />
+                    <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>
+                    <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>
                   </div>
                 </div>,
                 "context": Object {},
@@ -359,6 +420,8 @@ ReactWrapper {
                       props={
                         Object {
                           "balance": 20,
+                          "deposit": [MockFunction],
+                          "withdraw": [MockFunction],
                         }
                       }
                     />,
@@ -380,6 +443,8 @@ ReactWrapper {
                       props={
                         Object {
                           "balance": 20,
+                          "deposit": [MockFunction],
+                          "withdraw": [MockFunction],
                         }
                       }
                     />,
@@ -406,6 +471,8 @@ ReactWrapper {
                 props={
                   Object {
                     "balance": 20,
+                    "deposit": [MockFunction],
+                    "withdraw": [MockFunction],
                   }
                 }
               />,
@@ -426,6 +493,21 @@ ReactWrapper {
                     Wallet Balance: 
                     20
                   </h3>
+                  <br />
+                  <input
+                    class="input-wallet"
+                    type="text"
+                  />
+                  <button
+                    class="btn-deposit"
+                  >
+                    Deposit
+                  </button>
+                  <button
+                    class="btn-withdraw"
+                  >
+                    Withdraw
+                  </button>
                 </div>
               </div>,
               "context": Object {},
@@ -462,6 +544,8 @@ ReactWrapper {
                   props={
                     Object {
                       "balance": 20,
+                      "deposit": [MockFunction],
+                      "withdraw": [MockFunction],
                     }
                   }
                 />,
@@ -487,6 +571,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "refs": Object {},
@@ -495,6 +581,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "updater": Object {
@@ -520,7 +608,7 @@ ReactWrapper {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
-            "lineNumber": 8,
+            "lineNumber": 30,
           },
           "actualDuration": 0,
           "actualStartTime": -1,
@@ -532,14 +620,14 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
-              "lineNumber": 9,
+              "lineNumber": 31,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
             "alternate": null,
             "child": FiberNode {
               "_debugHookTypes": null,
-              "_debugID": 62,
+              "_debugID": 66,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": null,
               "_debugSource": null,
@@ -566,7 +654,7 @@ ReactWrapper {
               "selfBaseDuration": 0,
               "sibling": FiberNode {
                 "_debugHookTypes": null,
-                "_debugID": 63,
+                "_debugID": 67,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
                 "_debugSource": null,
@@ -633,7 +721,186 @@ ReactWrapper {
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
-            "sibling": null,
+            "sibling": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 62,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
+                "lineNumber": 32,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "contextDependencies": null,
+              "effectTag": 0,
+              "elementType": "br",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {},
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {},
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 63,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
+                  "lineNumber": 33,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "input",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "className": "input-wallet",
+                  "onChange": [Function],
+                  "type": "text",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "className": "input-wallet",
+                  "onChange": [Function],
+                  "type": "text",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 64,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
+                    "lineNumber": 38,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "button",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 3,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Deposit",
+                    "className": "btn-deposit",
+                    "onClick": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Deposit",
+                    "className": "btn-deposit",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 65,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
+                      "lineNumber": 41,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "button",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 4,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Withdraw",
+                      "className": "btn-withdraw",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Withdraw",
+                      "className": "btn-withdraw",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <button
+                    class="btn-deposit"
+                  >
+                    Deposit
+                  </button>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <input
+                  class="input-wallet"
+                  type="text"
+                />,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "input",
+                "updateQueue": null,
+              },
+              "stateNode": <br />,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "br",
+              "updateQueue": null,
+            },
             "stateNode": <h3
               class="balance"
             >
@@ -655,23 +922,63 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": <h3
-              className="balance"
-            >
-              Wallet Balance: 
-              20
-            </h3>,
+            "children": Array [
+              <h3
+                className="balance"
+              >
+                Wallet Balance: 
+                20
+              </h3>,
+              <br />,
+              <input
+                className="input-wallet"
+                onChange={[Function]}
+                type="text"
+              />,
+              <button
+                className="btn-deposit"
+                onClick={[Function]}
+              >
+                Deposit
+              </button>,
+              <button
+                className="btn-withdraw"
+                onClick={[Function]}
+              >
+                Withdraw
+              </button>,
+            ],
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": <h3
-              className="balance"
-            >
-              Wallet Balance: 
-              20
-            </h3>,
+            "children": Array [
+              <h3
+                className="balance"
+              >
+                Wallet Balance: 
+                20
+              </h3>,
+              <br />,
+              <input
+                className="input-wallet"
+                onChange={[Function]}
+                type="text"
+              />,
+              <button
+                className="btn-deposit"
+                onClick={[Function]}
+              >
+                Deposit
+              </button>,
+              <button
+                className="btn-withdraw"
+                onClick={[Function]}
+              >
+                Withdraw
+              </button>,
+            ],
           },
           "ref": null,
           "return": [Circular],
@@ -684,6 +991,21 @@ ReactWrapper {
               Wallet Balance: 
               20
             </h3>
+            <br />
+            <input
+              class="input-wallet"
+              type="text"
+            />
+            <button
+              class="btn-deposit"
+            >
+              Deposit
+            </button>
+            <button
+              class="btn-withdraw"
+            >
+              Withdraw
+            </button>
           </div>,
           "tag": 5,
           "treeBaseDuration": 0,
@@ -701,12 +1023,18 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "balance": 20,
+          "deposit": [MockFunction],
+          "withdraw": [MockFunction],
         },
-        "memoizedState": null,
+        "memoizedState": Object {
+          "balance": 0,
+        },
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
           "balance": 20,
+          "deposit": [MockFunction],
+          "withdraw": [MockFunction],
         },
         "ref": null,
         "return": FiberNode {
@@ -733,6 +1061,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "balance": 20,
+              "deposit": [MockFunction],
+              "withdraw": [MockFunction],
             },
           },
           "memoizedState": Object {
@@ -740,6 +1070,8 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "balance": 20,
+              "deposit": [MockFunction],
+              "withdraw": [MockFunction],
             },
           },
           "mode": 0,
@@ -788,6 +1120,21 @@ ReactWrapper {
                       Wallet Balance: 
                       20
                     </h3>
+                    <br />
+                    <input
+                      class="input-wallet"
+                      type="text"
+                    />
+                    <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>
+                    <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>
                   </div>
                 </div>,
                 "context": Object {},
@@ -833,6 +1180,8 @@ ReactWrapper {
                       props={
                         Object {
                           "balance": 20,
+                          "deposit": [MockFunction],
+                          "withdraw": [MockFunction],
                         }
                       }
                     />,
@@ -854,6 +1203,8 @@ ReactWrapper {
                       props={
                         Object {
                           "balance": 20,
+                          "deposit": [MockFunction],
+                          "withdraw": [MockFunction],
                         }
                       }
                     />,
@@ -880,6 +1231,8 @@ ReactWrapper {
                 props={
                   Object {
                     "balance": 20,
+                    "deposit": [MockFunction],
+                    "withdraw": [MockFunction],
                   }
                 }
               />,
@@ -900,6 +1253,21 @@ ReactWrapper {
                     Wallet Balance: 
                     20
                   </h3>
+                  <br />
+                  <input
+                    class="input-wallet"
+                    type="text"
+                  />
+                  <button
+                    class="btn-deposit"
+                  >
+                    Deposit
+                  </button>
+                  <button
+                    class="btn-withdraw"
+                  >
+                    Withdraw
+                  </button>
                 </div>
               </div>,
               "context": Object {},
@@ -936,6 +1304,8 @@ ReactWrapper {
                   props={
                     Object {
                       "balance": 20,
+                      "deposit": [MockFunction],
+                      "withdraw": [MockFunction],
                     }
                   }
                 />,
@@ -955,6 +1325,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "balance": 20,
+              "deposit": [MockFunction],
+              "withdraw": [MockFunction],
             },
           },
           "ref": null,
@@ -1003,6 +1375,21 @@ ReactWrapper {
                       Wallet Balance: 
                       20
                     </h3>
+                    <br />
+                    <input
+                      class="input-wallet"
+                      type="text"
+                    />
+                    <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>
+                    <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>
                   </div>
                 </div>,
                 "context": Object {},
@@ -1048,6 +1435,8 @@ ReactWrapper {
                       props={
                         Object {
                           "balance": 20,
+                          "deposit": [MockFunction],
+                          "withdraw": [MockFunction],
                         }
                       }
                     />,
@@ -1069,6 +1458,8 @@ ReactWrapper {
                       props={
                         Object {
                           "balance": 20,
+                          "deposit": [MockFunction],
+                          "withdraw": [MockFunction],
                         }
                       }
                     />,
@@ -1095,6 +1486,8 @@ ReactWrapper {
                 props={
                   Object {
                     "balance": 20,
+                    "deposit": [MockFunction],
+                    "withdraw": [MockFunction],
                   }
                 }
               />,
@@ -1115,6 +1508,21 @@ ReactWrapper {
                     Wallet Balance: 
                     20
                   </h3>
+                  <br />
+                  <input
+                    class="input-wallet"
+                    type="text"
+                  />
+                  <button
+                    class="btn-deposit"
+                  >
+                    Deposit
+                  </button>
+                  <button
+                    class="btn-withdraw"
+                  >
+                    Withdraw
+                  </button>
                 </div>
               </div>,
               "context": Object {},
@@ -1151,6 +1559,8 @@ ReactWrapper {
                   props={
                     Object {
                       "balance": 20,
+                      "deposit": [MockFunction],
+                      "withdraw": [MockFunction],
                     }
                   }
                 />,
@@ -1176,6 +1586,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "refs": Object {},
@@ -1184,6 +1596,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "updater": Object {
@@ -1208,22 +1622,31 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "context": Object {},
+      "deposit": [Function],
       "props": Object {
         "balance": 20,
+        "deposit": [MockFunction],
+        "withdraw": [MockFunction],
       },
       "refs": Object {},
-      "state": null,
+      "state": Object {
+        "balance": 0,
+      },
+      "updateBalance": [Function],
       "updater": Object {
         "enqueueForceUpdate": [Function],
         "enqueueReplaceState": [Function],
         "enqueueSetState": [Function],
         "isMounted": [Function],
       },
+      "withdraw": [Function],
     },
     "key": undefined,
     "nodeType": "class",
     "props": Object {
       "balance": 20,
+      "deposit": [MockFunction],
+      "withdraw": [MockFunction],
     },
     "ref": null,
     "rendered": Object {
@@ -1234,16 +1657,51 @@ ReactWrapper {
           Wallet Balance: 
           20
         </h3>
+        <br />
+        <input
+          class="input-wallet"
+          type="text"
+        />
+        <button
+          class="btn-deposit"
+        >
+          Deposit
+        </button>
+        <button
+          class="btn-withdraw"
+        >
+          Withdraw
+        </button>
       </div>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h3
-          className="balance"
-        >
-          Wallet Balance: 
-          20
-        </h3>,
+        "children": Array [
+          <h3
+            className="balance"
+          >
+            Wallet Balance: 
+            20
+          </h3>,
+          <br />,
+          <input
+            className="input-wallet"
+            onChange={[Function]}
+            type="text"
+          />,
+          <button
+            className="btn-deposit"
+            onClick={[Function]}
+          >
+            Deposit
+          </button>,
+          <button
+            className="btn-withdraw"
+            onClick={[Function]}
+          >
+            Withdraw
+          </button>,
+        ],
       },
       "ref": null,
       "rendered": Array [
@@ -1269,6 +1727,73 @@ ReactWrapper {
             "20",
           ],
           "type": "h3",
+        },
+        Object {
+          "instance": <br />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "br",
+        },
+        Object {
+          "instance": <input
+            class="input-wallet"
+            type="text"
+          />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "input-wallet",
+            "onChange": [Function],
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "input",
+        },
+        Object {
+          "instance": <button
+            class="btn-deposit"
+          >
+            Deposit
+          </button>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Deposit",
+            "className": "btn-deposit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Deposit",
+          ],
+          "type": "button",
+        },
+        Object {
+          "instance": <button
+            class="btn-withdraw"
+          >
+            Withdraw
+          </button>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Withdraw",
+            "className": "btn-withdraw",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Withdraw",
+          ],
+          "type": "button",
         },
       ],
       "type": "div",
@@ -1306,6 +1831,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "memoizedState": Object {
@@ -1313,6 +1840,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "mode": 0,
@@ -1361,6 +1890,21 @@ ReactWrapper {
                         Wallet Balance: 
                         20
                       </h3>
+                      <br />
+                      <input
+                        class="input-wallet"
+                        type="text"
+                      />
+                      <button
+                        class="btn-deposit"
+                      >
+                        Deposit
+                      </button>
+                      <button
+                        class="btn-withdraw"
+                      >
+                        Withdraw
+                      </button>
                     </div>
                   </div>,
                   "context": Object {},
@@ -1406,6 +1950,8 @@ ReactWrapper {
                         props={
                           Object {
                             "balance": 20,
+                            "deposit": [MockFunction],
+                            "withdraw": [MockFunction],
                           }
                         }
                       />,
@@ -1427,6 +1973,8 @@ ReactWrapper {
                         props={
                           Object {
                             "balance": 20,
+                            "deposit": [MockFunction],
+                            "withdraw": [MockFunction],
                           }
                         }
                       />,
@@ -1453,6 +2001,8 @@ ReactWrapper {
                   props={
                     Object {
                       "balance": 20,
+                      "deposit": [MockFunction],
+                      "withdraw": [MockFunction],
                     }
                   }
                 />,
@@ -1473,6 +2023,21 @@ ReactWrapper {
                       Wallet Balance: 
                       20
                     </h3>
+                    <br />
+                    <input
+                      class="input-wallet"
+                      type="text"
+                    />
+                    <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>
+                    <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>
                   </div>
                 </div>,
                 "context": Object {},
@@ -1509,6 +2074,8 @@ ReactWrapper {
                     props={
                       Object {
                         "balance": 20,
+                        "deposit": [MockFunction],
+                        "withdraw": [MockFunction],
                       }
                     }
                   />,
@@ -1528,6 +2095,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "ref": null,
@@ -1576,6 +2145,21 @@ ReactWrapper {
                         Wallet Balance: 
                         20
                       </h3>
+                      <br />
+                      <input
+                        class="input-wallet"
+                        type="text"
+                      />
+                      <button
+                        class="btn-deposit"
+                      >
+                        Deposit
+                      </button>
+                      <button
+                        class="btn-withdraw"
+                      >
+                        Withdraw
+                      </button>
                     </div>
                   </div>,
                   "context": Object {},
@@ -1621,6 +2205,8 @@ ReactWrapper {
                         props={
                           Object {
                             "balance": 20,
+                            "deposit": [MockFunction],
+                            "withdraw": [MockFunction],
                           }
                         }
                       />,
@@ -1642,6 +2228,8 @@ ReactWrapper {
                         props={
                           Object {
                             "balance": 20,
+                            "deposit": [MockFunction],
+                            "withdraw": [MockFunction],
                           }
                         }
                       />,
@@ -1668,6 +2256,8 @@ ReactWrapper {
                   props={
                     Object {
                       "balance": 20,
+                      "deposit": [MockFunction],
+                      "withdraw": [MockFunction],
                     }
                   }
                 />,
@@ -1688,6 +2278,21 @@ ReactWrapper {
                       Wallet Balance: 
                       20
                     </h3>
+                    <br />
+                    <input
+                      class="input-wallet"
+                      type="text"
+                    />
+                    <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>
+                    <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>
                   </div>
                 </div>,
                 "context": Object {},
@@ -1724,6 +2329,8 @@ ReactWrapper {
                     props={
                       Object {
                         "balance": 20,
+                        "deposit": [MockFunction],
+                        "withdraw": [MockFunction],
                       }
                     }
                   />,
@@ -1749,6 +2356,8 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "balance": 20,
+                  "deposit": [MockFunction],
+                  "withdraw": [MockFunction],
                 },
               },
               "refs": Object {},
@@ -1757,6 +2366,8 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "balance": 20,
+                  "deposit": [MockFunction],
+                  "withdraw": [MockFunction],
                 },
               },
               "updater": Object {
@@ -1782,7 +2393,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
-              "lineNumber": 8,
+              "lineNumber": 30,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -1794,14 +2405,14 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
-                "lineNumber": 9,
+                "lineNumber": 31,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
               "alternate": null,
               "child": FiberNode {
                 "_debugHookTypes": null,
-                "_debugID": 62,
+                "_debugID": 66,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
                 "_debugSource": null,
@@ -1828,7 +2439,7 @@ ReactWrapper {
                 "selfBaseDuration": 0,
                 "sibling": FiberNode {
                   "_debugHookTypes": null,
-                  "_debugID": 63,
+                  "_debugID": 67,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
                   "_debugSource": null,
@@ -1895,7 +2506,186 @@ ReactWrapper {
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
-              "sibling": null,
+              "sibling": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 62,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
+                  "lineNumber": 32,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "contextDependencies": null,
+                "effectTag": 0,
+                "elementType": "br",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {},
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {},
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 63,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
+                    "lineNumber": 33,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "contextDependencies": null,
+                  "effectTag": 0,
+                  "elementType": "input",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 2,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "className": "input-wallet",
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "className": "input-wallet",
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 64,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
+                      "lineNumber": 38,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "contextDependencies": null,
+                    "effectTag": 0,
+                    "elementType": "button",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 3,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Deposit",
+                      "className": "btn-deposit",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Deposit",
+                      "className": "btn-deposit",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 65,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "C:\\\\Users\\\\TK\\\\Desktop\\\\udemy-react-mastering-tdd\\\\loot-check\\\\src\\\\components\\\\Wallet.jsx",
+                        "lineNumber": 41,
+                      },
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "contextDependencies": null,
+                      "effectTag": 0,
+                      "elementType": "button",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 4,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Withdraw",
+                        "className": "btn-withdraw",
+                        "onClick": [Function],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Withdraw",
+                        "className": "btn-withdraw",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <button
+                        class="btn-withdraw"
+                      >
+                        Withdraw
+                      </button>,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "button",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <input
+                    class="input-wallet"
+                    type="text"
+                  />,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "input",
+                  "updateQueue": null,
+                },
+                "stateNode": <br />,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "br",
+                "updateQueue": null,
+              },
               "stateNode": <h3
                 class="balance"
               >
@@ -1917,23 +2707,63 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <h3
-                className="balance"
-              >
-                Wallet Balance: 
-                20
-              </h3>,
+              "children": Array [
+                <h3
+                  className="balance"
+                >
+                  Wallet Balance: 
+                  20
+                </h3>,
+                <br />,
+                <input
+                  className="input-wallet"
+                  onChange={[Function]}
+                  type="text"
+                />,
+                <button
+                  className="btn-deposit"
+                  onClick={[Function]}
+                >
+                  Deposit
+                </button>,
+                <button
+                  className="btn-withdraw"
+                  onClick={[Function]}
+                >
+                  Withdraw
+                </button>,
+              ],
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <h3
-                className="balance"
-              >
-                Wallet Balance: 
-                20
-              </h3>,
+              "children": Array [
+                <h3
+                  className="balance"
+                >
+                  Wallet Balance: 
+                  20
+                </h3>,
+                <br />,
+                <input
+                  className="input-wallet"
+                  onChange={[Function]}
+                  type="text"
+                />,
+                <button
+                  className="btn-deposit"
+                  onClick={[Function]}
+                >
+                  Deposit
+                </button>,
+                <button
+                  className="btn-withdraw"
+                  onClick={[Function]}
+                >
+                  Withdraw
+                </button>,
+              ],
             },
             "ref": null,
             "return": [Circular],
@@ -1946,6 +2776,21 @@ ReactWrapper {
                 Wallet Balance: 
                 20
               </h3>
+              <br />
+              <input
+                class="input-wallet"
+                type="text"
+              />
+              <button
+                class="btn-deposit"
+              >
+                Deposit
+              </button>
+              <button
+                class="btn-withdraw"
+              >
+                Withdraw
+              </button>
             </div>,
             "tag": 5,
             "treeBaseDuration": 0,
@@ -1963,12 +2808,18 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "balance": 20,
+            "deposit": [MockFunction],
+            "withdraw": [MockFunction],
           },
-          "memoizedState": null,
+          "memoizedState": Object {
+            "balance": 0,
+          },
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "balance": 20,
+            "deposit": [MockFunction],
+            "withdraw": [MockFunction],
           },
           "ref": null,
           "return": FiberNode {
@@ -1995,6 +2846,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "memoizedState": Object {
@@ -2002,6 +2855,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "mode": 0,
@@ -2050,6 +2905,21 @@ ReactWrapper {
                         Wallet Balance: 
                         20
                       </h3>
+                      <br />
+                      <input
+                        class="input-wallet"
+                        type="text"
+                      />
+                      <button
+                        class="btn-deposit"
+                      >
+                        Deposit
+                      </button>
+                      <button
+                        class="btn-withdraw"
+                      >
+                        Withdraw
+                      </button>
                     </div>
                   </div>,
                   "context": Object {},
@@ -2095,6 +2965,8 @@ ReactWrapper {
                         props={
                           Object {
                             "balance": 20,
+                            "deposit": [MockFunction],
+                            "withdraw": [MockFunction],
                           }
                         }
                       />,
@@ -2116,6 +2988,8 @@ ReactWrapper {
                         props={
                           Object {
                             "balance": 20,
+                            "deposit": [MockFunction],
+                            "withdraw": [MockFunction],
                           }
                         }
                       />,
@@ -2142,6 +3016,8 @@ ReactWrapper {
                   props={
                     Object {
                       "balance": 20,
+                      "deposit": [MockFunction],
+                      "withdraw": [MockFunction],
                     }
                   }
                 />,
@@ -2162,6 +3038,21 @@ ReactWrapper {
                       Wallet Balance: 
                       20
                     </h3>
+                    <br />
+                    <input
+                      class="input-wallet"
+                      type="text"
+                    />
+                    <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>
+                    <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>
                   </div>
                 </div>,
                 "context": Object {},
@@ -2198,6 +3089,8 @@ ReactWrapper {
                     props={
                       Object {
                         "balance": 20,
+                        "deposit": [MockFunction],
+                        "withdraw": [MockFunction],
                       }
                     }
                   />,
@@ -2217,6 +3110,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "balance": 20,
+                "deposit": [MockFunction],
+                "withdraw": [MockFunction],
               },
             },
             "ref": null,
@@ -2265,6 +3160,21 @@ ReactWrapper {
                         Wallet Balance: 
                         20
                       </h3>
+                      <br />
+                      <input
+                        class="input-wallet"
+                        type="text"
+                      />
+                      <button
+                        class="btn-deposit"
+                      >
+                        Deposit
+                      </button>
+                      <button
+                        class="btn-withdraw"
+                      >
+                        Withdraw
+                      </button>
                     </div>
                   </div>,
                   "context": Object {},
@@ -2310,6 +3220,8 @@ ReactWrapper {
                         props={
                           Object {
                             "balance": 20,
+                            "deposit": [MockFunction],
+                            "withdraw": [MockFunction],
                           }
                         }
                       />,
@@ -2331,6 +3243,8 @@ ReactWrapper {
                         props={
                           Object {
                             "balance": 20,
+                            "deposit": [MockFunction],
+                            "withdraw": [MockFunction],
                           }
                         }
                       />,
@@ -2357,6 +3271,8 @@ ReactWrapper {
                   props={
                     Object {
                       "balance": 20,
+                      "deposit": [MockFunction],
+                      "withdraw": [MockFunction],
                     }
                   }
                 />,
@@ -2377,6 +3293,21 @@ ReactWrapper {
                       Wallet Balance: 
                       20
                     </h3>
+                    <br />
+                    <input
+                      class="input-wallet"
+                      type="text"
+                    />
+                    <button
+                      class="btn-deposit"
+                    >
+                      Deposit
+                    </button>
+                    <button
+                      class="btn-withdraw"
+                    >
+                      Withdraw
+                    </button>
                   </div>
                 </div>,
                 "context": Object {},
@@ -2413,6 +3344,8 @@ ReactWrapper {
                     props={
                       Object {
                         "balance": 20,
+                        "deposit": [MockFunction],
+                        "withdraw": [MockFunction],
                       }
                     }
                   />,
@@ -2438,6 +3371,8 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "balance": 20,
+                  "deposit": [MockFunction],
+                  "withdraw": [MockFunction],
                 },
               },
               "refs": Object {},
@@ -2446,6 +3381,8 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "balance": 20,
+                  "deposit": [MockFunction],
+                  "withdraw": [MockFunction],
                 },
               },
               "updater": Object {
@@ -2470,22 +3407,31 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "context": Object {},
+        "deposit": [Function],
         "props": Object {
           "balance": 20,
+          "deposit": [MockFunction],
+          "withdraw": [MockFunction],
         },
         "refs": Object {},
-        "state": null,
+        "state": Object {
+          "balance": 0,
+        },
+        "updateBalance": [Function],
         "updater": Object {
           "enqueueForceUpdate": [Function],
           "enqueueReplaceState": [Function],
           "enqueueSetState": [Function],
           "isMounted": [Function],
         },
+        "withdraw": [Function],
       },
       "key": undefined,
       "nodeType": "class",
       "props": Object {
         "balance": 20,
+        "deposit": [MockFunction],
+        "withdraw": [MockFunction],
       },
       "ref": null,
       "rendered": Object {
@@ -2496,16 +3442,51 @@ ReactWrapper {
             Wallet Balance: 
             20
           </h3>
+          <br />
+          <input
+            class="input-wallet"
+            type="text"
+          />
+          <button
+            class="btn-deposit"
+          >
+            Deposit
+          </button>
+          <button
+            class="btn-withdraw"
+          >
+            Withdraw
+          </button>
         </div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h3
-            className="balance"
-          >
-            Wallet Balance: 
-            20
-          </h3>,
+          "children": Array [
+            <h3
+              className="balance"
+            >
+              Wallet Balance: 
+              20
+            </h3>,
+            <br />,
+            <input
+              className="input-wallet"
+              onChange={[Function]}
+              type="text"
+            />,
+            <button
+              className="btn-deposit"
+              onClick={[Function]}
+            >
+              Deposit
+            </button>,
+            <button
+              className="btn-withdraw"
+              onClick={[Function]}
+            >
+              Withdraw
+            </button>,
+          ],
         },
         "ref": null,
         "rendered": Array [
@@ -2531,6 +3512,73 @@ ReactWrapper {
               "20",
             ],
             "type": "h3",
+          },
+          Object {
+            "instance": <br />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "br",
+          },
+          Object {
+            "instance": <input
+              class="input-wallet"
+              type="text"
+            />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-wallet",
+              "onChange": [Function],
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "input",
+          },
+          Object {
+            "instance": <button
+              class="btn-deposit"
+            >
+              Deposit
+            </button>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Deposit",
+              "className": "btn-deposit",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Deposit",
+            ],
+            "type": "button",
+          },
+          Object {
+            "instance": <button
+              class="btn-withdraw"
+            >
+              Withdraw
+            </button>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Withdraw",
+              "className": "btn-withdraw",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Withdraw",
+            ],
+            "type": "button",
           },
         ],
         "type": "div",
