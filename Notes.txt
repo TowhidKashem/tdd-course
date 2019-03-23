@@ -32,6 +32,9 @@ Enzyme:
 
 * beforeEach() and afterEach() methods run before and after each unit test (denoted by it()) within a describe()
 
+* `<MOCK_FUNCTION>.toHaveBeenCalled()` checks to make sure a function has been called
+* `<MOCK_FUNCTION>.toHaveBeenCalledWith(argument)` checks that it's been called with a certain argument
+
 ---------------------------
 
 Pass props in like so:
@@ -74,6 +77,12 @@ Assert a callback has been called with a certain param:
 * Behavior Driven Development is a variation of test driven development that hones in on user scenarios and behaviors that affect the app state.
 
   - Given, when, and then/and represent key words in the BDD structure and help document the user scenarios for the application.
+
+--------
+
+* Testing Redux Actions and Reducers involves testing the output of pure functions - functions that return the same output based on the same input. That means we can build the expected output for an input, and test the action/reducer based on that input and output.
+
+* We can provide mock functions with jest.fn() to the props interface of a component to check whether or not redux action creators are dispatched.
 
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------

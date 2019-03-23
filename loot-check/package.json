@@ -8,6 +8,7 @@
     "react-redux": "^6.0.1",
     "react-scripts": "2.1.8",
     "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "sfcookies": "^1.0.2"
   },
   "scripts": {
@@ -28,6 +29,9 @@
   "devDependencies": {
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
-    "jest-cli": "^24.5.0"
+    "fetch-mock": "^7.3.1",
+    "jest-cli": "^24.5.0",
+    "node-fetch": "^2.3.0",
+    "redux-mock-store": "^1.5.3"
   }
 }
