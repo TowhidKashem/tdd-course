@@ -4,18 +4,16 @@ import balanceReducer from './balance';
 
 describe('balance reducer', () => {
   const prevState = undefined;
-  const balance = 10;
 
   describe('when initializing', () => {
+    const balance = 10;
     const action = {
       type: actionTypes.SET_BALANCE,
       balance
     };
 
     it('sets a balance', () => {
-      expect(balanceReducer(prevState, action)).toEqual({
-        balance
-      });
+      expect(balanceReducer(prevState, action)).toEqual(balance);
     });
 
     // describe('then re-initializing (if page reloads)', () => {
@@ -36,13 +34,8 @@ describe('balance reducer', () => {
       deposit
     };
 
-    const prevState = {
-      balance
-    };
-
-    expect(balanceReducer(prevState, action)).toEqual({
-      balance: balance + deposit
-    });
+    const prevState = balance;
+    expect(balanceReducer(prevState, action)).toEqual(balance + deposit);
   });
 
   it('withdraws from the balance', () => {
@@ -54,12 +47,7 @@ describe('balance reducer', () => {
       withdrawl
     };
 
-    const prevState = {
-      balance
-    };
-
-    expect(balanceReducer(prevState, action)).toEqual({
-      balance: balance - withdrawl
-    });
+    const prevState = balance;
+    expect(balanceReducer(prevState, action)).toEqual(balance - withdrawl);
   });
 });

@@ -3,38 +3,27 @@ import { read_cookie, bake_cookie } from 'sfcookies';
 
 const COOKIE_NAME = 'BALANCE_COOKIES';
 
-const initialState = {
-  balance: parseInt(read_cookie(COOKIE_NAME), 10) || 0
-};
+const initialState = parseInt(read_cookie(COOKIE_NAME), 10) || 0;
 
 const reducer = (prevState = initialState, action) => {
-  let state;
+  let balance;
 
   switch (action.type) {
     case actionTypes.SET_BALANCE:
-      state = {
-        ...prevState,
-        balance: action.balance
-      };
+      balance = action.balance;
       break;
     case actionTypes.DEPOSIT:
-      state = {
-        ...prevState,
-        balance: prevState.balance + action.deposit
-      };
+      balance = prevState + action.deposit;
       break;
     case actionTypes.WITHDRAW:
-      state = {
-        ...prevState,
-        balance: prevState.balance - action.withdrawl
-      };
+      balance = prevState - action.withdrawl;
       break;
     default:
-      state = prevState;
+      balance = prevState;
   }
 
-  bake_cookie(COOKIE_NAME, state.balance);
-  return state;
+  bake_cookie(COOKIE_NAME, balance);
+  return balance;
 };
 
 export default reducer;
